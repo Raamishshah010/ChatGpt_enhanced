@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-color: #282c34;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sidemenu {
+  width: 260px;
+  /* border: 1px solid white; */
+  background-color: #202123;
+  padding: 10px;
+}
+
+.sidemenu .sidemenu-button {
+  padding: 15px;
+  border: 1px solid #686868;
+  border-radius: 5px;
+  text-align: left;
+  transition: ease 0.25s all;
+  cursor: pointer;
+}
+
+.sidemenu .sidemenu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1)
+}
+
+.sidemenu .sidemenu-button span {
+  padding-right: 10px;
+  padding-left: 7px;
+
+
+}
+
+
+
+.chatbox {
+  flex: 1;
+  background-color: #343541;
+  position: relative;
+}
+
+.chatbox .chat-log {
+  /* padding: 24px; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  max-width: 100%;
+  overflow-y: scroll;
+}
+
+.chatbox .chat-log .chat-message.chatgpt {
+  
+  background-color: #444654;
+  
+}
+
+.chatbox .chat-message-center {
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.chatbox .chat-log .avatar {
+  background: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+}
+
+.chatbox .chat-log .avatar.chatgpt {
+  background: #0da37f;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+}
+
+
+.chatbox .chat-log .message {
+
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+
+
+
+.chat-input-holder {
+  padding: 24px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+.chat-input-holder .chat-input-textarea {
+  background-color: #40414f;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(56, 56, 56, 0.5);
+
+}
+
+
+.speechBtn{
+  margin-left: 1rem;
+  /* background-color: red */
+}
+
+
+/* .rs-container {
+  background-color: transparent;
+  cursor: pointer;
+    pointer-events: all;
+    outline: none;
+    background: url('https://cdn-icons-png.flaticon.com/128/727/727269.png');
+    background-position: center;
+    padding: 6px 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
