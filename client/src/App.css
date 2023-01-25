@@ -52,7 +52,7 @@
   flex-direction: column;
   height: 90%;
   max-width: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .chatbox .chat-log .chat-message.chatgpt {
